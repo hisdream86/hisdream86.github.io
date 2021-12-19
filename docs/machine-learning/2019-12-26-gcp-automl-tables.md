@@ -94,7 +94,7 @@ AutoML Tables의 [과금 정책](https://cloud.google.com/automl-tables/pricing)
 
 **최적화 목표 (Optimization Objective) 설정**
 
-문제의 종류에 따라 다양한 최적화 목표를 제공한다 ([참고](https://cloud.google.com/automl-tables/docs/train#opt-obj)
+문제의 종류에 따라 다양한 최적화 목표를 제공한다 ([참고](https://cloud.google.com/automl-tables/docs/train#opt-obj))
 
 풀고자 하는 문제의 종류 및 성격에 따라 적절한 최적화 목료를 지정해서 사용하면 된다.
 
