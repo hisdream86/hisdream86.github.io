@@ -92,9 +92,11 @@ BigQuery 테이블을 Import 하는 경우, 별도의 데이터 스키마를 지
 
 AutoML Tables의 [과금 정책](https://cloud.google.com/automl-tables/pricing)은 Compuing 시간 당 비용이다. 따라서 시간(Hour)값의 예산을 설정해야 하는데, 이를 모두 사용하기 전에 성능이 수렴했다고 판단되면 미리 학습이 종료되기도 한다(Ealry Stopping). 물론 이 옵션을 끌수도 있다.
 
-**최적화 목표 설정**
+**최적화 목표 (Optimization Objective) 설정**
 
-별도의 설정을 하지 않으면 학습은 디폴트 평가 지표를 최적화하는 방향으로 이루어진다(디폴트가 무엇인지는 찾기가 어렵다...). 원한다면 이 값도 변경이 가능하니 [참고](https://cloud.google.com/automl-tables/docs/train#opt-obj)하자.
+문제의 종류에 따라 다양한 최적화 목표를 제공한다 ([참고](https://cloud.google.com/automl-tables/docs/train#opt-obj)
+
+풀고자 하는 문제의 종류 및 성격에 따라 적절한 최적화 목료를 지정해서 사용하면 된다.
 
 ### 학습 시 유의사항
 각 컬럼의 타입이 적절히 지정되었는지 확인이 필요하다.
@@ -133,11 +135,6 @@ AutoML Tables 에서는 아래와 같은 평가 지표들 제공하며, 이를 �
 또한, 문제 타입에 관계없이 **Feature importance**를 제공하므로, 무의미한 Feature가 사용되지는 않았는지 추가적으로 확인할 수 있다.
 
 AutoML Tables 에서는 이러한 지표들을 획득하기 위한 인터페이스로 [GCP Console](https://cloud.google.com/automl-tables/docs/evaluate#automl-tables-list-model-evaluations-console)과 [Restful API](https://cloud.google.com/automl-tables/docs/evaluate#automl-tables-list-model-evaluations-cli-curl)를 제공한다.
-
-<br/>
-
-## Prediction
-TBD
 
 ## References
 - [Google AutoML Tables](https://cloud.google.com/automl-tables/docs/)
