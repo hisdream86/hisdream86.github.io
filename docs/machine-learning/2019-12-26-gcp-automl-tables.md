@@ -137,7 +137,7 @@ AutoML Tables 에서는 이러한 지표들을 획득하기 위한 인터페이�
 <br/>
 
 ## Prediction
-TBD 
+TBD
 
 ## References
-- [AutoML Tables documentation](https://cloud.google.com/automl-tables/docs/)
+- [Google AutoML Tables](https://cloud.google.com/automl-tables/docs/)
