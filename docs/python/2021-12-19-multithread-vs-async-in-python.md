@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multithread vs. Async Programming in Python
-parent: python
+parent: Python
 tags: [python, async, asyncio, coroutine, future, task]
 nav_order: 1
 ---
@@ -133,4 +133,4 @@ asyncio.run(main()) # (2)
 
 **결과**
 
-결과를 확인하면 이벤트 루프 내에서 `task_1()` 과 `task_2()` 가 I/O 작업을 동시에 수행되었고, 따라서 최종적으로 소요된 시간은 약 2초 임을 확인할 수 있다.
+결과를 확인하면 이벤트 루프 내에서 `task_1()` 과 `task_2()` 가 I/O 작업을 동시에 수행하였고, 따라서 최종적으로 소요된 시간이 약 2초 임을 확인할 수 있다.
