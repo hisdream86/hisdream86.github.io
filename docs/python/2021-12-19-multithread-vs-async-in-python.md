@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 파이썬에서의 멀티스레딩 (Multi-threading) vs. 비동기 프로그래밍 (Asynchronous Programming)
+title: 파이썬 멀티스레딩 vs. 비동기 프로그래밍
 parent: Python
 tags: [python, async, asyncio, coroutine, future, task]
 nav_order: 1
 ---
 
-# 파이썬에서의 멀티스레딩 (Multi-threading) vs. 비동기 프로그래밍 (Asynchronous Programming)
+# 파이썬 멀티스레딩 (Multi-threading) vs. 비동기 프로그래밍 (Asynchronous Programming)
 
 우리가 개발을 하다보면 단일 스레드 기반의 동기식 (Synchronous) 프로그래밍으로는 쉽게 한계에 봉착하게 된다. 
 
